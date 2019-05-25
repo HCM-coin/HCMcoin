@@ -1,4 +1,4 @@
-theme: - pipeline: "1"
+theme: jekyll-theme-time-machine
   trigger_mode: "ON_EVERY_PUSH"
   ref_name: "master"
   ref_type: "BRANCH"
