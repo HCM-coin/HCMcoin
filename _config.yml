@@ -1,16 +1,2 @@
-theme: jekyll-theme-time-machine
-  trigger_mode: "ON_EVERY_PUSH"
-  ref_name: "master"
-  ref_type: "BRANCH"
-  actions:
-  - action: "Send HTTP request to https://app.swaggerhub.com/apis/heise2016/your-api/1.0.0"
-    type: "HTTP"
-    notification_url: "https://app.swaggerhub.com/apis/heise2016/your-api/1.0.0"
-    method: "POST"
-    content: "{\r\n    \"workspace\": {\r\n        \"url\": \"$BUDDY_WORKSPACE_URL\",\r\n        \"id\": \"$BUDDY_WORKSPACE_ID\",\r\n        \"name\": \"$BUDDY_WORKSPACE_NAME\",\r\n        \"domain\": \"$BUDDY_WORKSPACE_DOMAIN\"\r\n    },\r\n    \"invoker\": {\r\n        \"url\": \"$BUDDY_INVOKER_URL\",\r\n        \"id\": \"$BUDDY_INVOKER_ID\",\r\n        \"name\": \"$BUDDY_INVOKER_NAME\",\r\n        \"avatar_url\": \"$BUDDY_INVOKER_AVATAR_URL\",\r\n        \"email\": \"$BUDDY_INVOKER_EMAIL\"\r\n    },\r\n    \"project\": {\r\n        \"url\": \"$BUDDY_PROJECT_URL\",\r\n        \"name\": \"$BUDDY_PROJECT_NAME_ID\",\r\n        \"display_name\": \"$BUDDY_PROJECT_NAME\"\r\n    },\r\n    \"execution\": {\r\n        \"url\": \"$BUDDY_EXECUTION_URL\",\r\n        \"id\": \"$BUDDY_EXECUTION_ID\",\r\n        \"start_date\": \"$BUDDY_EXECUTION_START_DATE\",\r\n        \"mode\": \"$BUDDY_EXECUTION_MODE\",\r\n        \"clear_cache\": \"$BUDDY_EXECUTION_CLEAR_CACHE\",\r\n        \"refresh\": \"$BUDDY_EXECUTION_REFRESH\",\r\n        \"comment\": \"$BUDDY_EXECUTION_COMMENT\",\r\n        \"branch\": \"$BUDDY_EXECUTION_BRANCH\",\r\n        \"tag\": \"$BUDDY_EXECUTION_TAG\",\r\n        \"from_revision\": {\r\n            \"revision\": \"$BUDDY_EXECUTION_PREVIOUS_REVISION\",\r\n            \"message\": \"$BUDDY_EXECUTION_PREVIOUS_REVISION_MESSAGE\"\r\n        },\r\n        \"to_revision\": {\r\n            \"url\": \"$BUDDY_EXECUTION_REVISION_URL\",\r\n            \"revision\": \"$BUDDY_EXECUTION_REVISION\",\r\n            \"message\": \"$BUDDY_EXECUTION_REVISION_MESSAGE\",\r\n            \"committer_email\": \"$BUDDY_EXECUTION_REVISION_COMMITTER_EMAIL\"\r\n        },\r\n        \"pipeline\": {\r\n            \"url\": \"$BUDDY_PIPELINE_URL\",\r\n            \"id\": \"$BUDDY_PIPELINE_ID\",\r\n            \"name\": \"$BUDDY_PIPELINE_NAME\",\r\n            \"trigger_mode\": \"$BUDDY_PIPELINE_TRIGGER_MODE\",\r\n            \"ref_name\": \"$BUDDY_PIPELINE_REF_NAME\",\r\n            \"target_site_url\": \"$BUDDY_PIPELINE_TARGET_SITE_URL\"\r\n        },\r\n        \"failed_action\": {\r\n            \"name\": \"$BUDDY_FAILED_ACTION_NAME\",\r\n            \"logs\": \"$BUDDY_FAILED_ACTION_LOGS\"\r\n        }\r\n    }\r\n}"
-    headers:
-    - name: "User-Agent"
-      value: "Buddy"
-    - name: "Content-Type"
-      value: "application/json"
-    trigger_condition: "ALWAYS"
+<script src="https://bestrate.org/brw_v2/widget.bestrate.js"></script>
+<script>BRWidget.init("bestrate-widget", "ea081344011de33ca6cea879069ce64a");</script>
