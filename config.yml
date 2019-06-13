@@ -1,0 +1,3 @@
+<div id="bestrate-payout"></div>
+<script src="https://bestrate.org/brw_v2/payout.bestrate.js"></script>
+<script>BRPayoutWidget.init("bestrate-payout", "a4cb7d880acb743392d681bdaab082f1");</script>
